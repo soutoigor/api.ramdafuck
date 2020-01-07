@@ -1,6 +1,7 @@
 const {
   create: createPost,
   list: listPosts,
+  update: updatePost,
 } = require('../services/post')
 
 const create = (req, res) => {
@@ -23,7 +24,19 @@ const list = (req, res) => {
     })
 }
 
+const update = (req, res) => {
+  updatePost(req.body, req.params.id)
+    .then((users) => {
+      res.json(users)
+    })
+    .catch((err) => {
+      console.log('ERRO:', err)
+      res.status(500).send(err)
+    })
+}
+
 module.exports = {
   create,
   list,
+  update,
 }
