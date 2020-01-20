@@ -30,7 +30,6 @@ const update = (req, res) => {
       res.json(users)
     })
     .catch((err) => {
-      console.log('ERRO:', err)
       res.status(500).send(err)
     })
 }
