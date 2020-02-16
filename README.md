@@ -1,6 +1,6 @@
 # api.ramdafuck
 
-This is the API of the "Ramdafuck" application, a for fun project where people can post their RamdaFucks and comment on other ramdafucks.  
+This is the API of the "Ramdafuck" application, a for fun project where people can post their RamdaFucks and comment on other RamdaFucks.  
 
 ## Setup
 
@@ -16,9 +16,9 @@ Now it must be showing the message **"App listening on port [PORT]!"** in termin
 
 ## Usage  
 
-It has only 2 routes:  
 - POST - (/post)
 - GET - (/post)
+- PATCH - (/post/:id)
 
 ### Author
 [Igor Souto](https://www.linkedin.com/in/igor-souto/)
