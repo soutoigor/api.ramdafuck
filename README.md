@@ -1,6 +1,7 @@
 # api.ramdafuck
 
-This is the API of the "Ramdafuck" application, a for fun project where people can post their RamdaFucks and comment on other RamdaFucks.  
+This is the API of the "Ramdafuck" application, a "for-fun" project where people can post their RamdaFucks and comment on other RamdaFucks.  
+You can use it with the [front-end](https://github.com/soutoigor/app.ramdafuck) application.
 
 ## Setup
 
@@ -12,7 +13,7 @@ create `.env` file and add the environment variables as in `.env.example` file.
 run docker container:  
 `docker-compose up`
 
-Now it must be showing the message **"App listening on port [PORT]!"** in terminal.
+Now it must be showing the message **"App listening on port 8000!"** in terminal.
 
 ## Usage  
 
